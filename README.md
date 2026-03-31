@@ -19,7 +19,7 @@ RTL Design, Synthesis and Physical Design.
 | Day 2 | Full Adder - Simulation and Synthesis | ✅ Done |
 | Day 3 | 4x1 MUX - Simulation and Synthesis | ✅ Done |
 | Day 4 | D Flip Flop - Simulation and Synthesis | ✅ Done |
-| Day 5 | Counters and Shift Register | 🔄 Upcoming |
+| Day 5 | Counters and Shift Register | ✅ Done |
 | Day 6 | FSM | 🔄 Upcoming |
 | Day 7 | ALU | 🔄 Upcoming |
 | Day 8 | SystemVerilog Basics | 🔄 Upcoming |
@@ -55,3 +55,11 @@ RTL Design, Synthesis and Physical Design.
 - Simulated both using iverilog and GTKWave
 - Synthesized using Yosys with dfflibmap
 - [Click here for Day 4 details](Day4/README.md)
+
+## Day 5 - Counters and Shift Register
+- Wrote 4-bit Up Counter
+- Wrote 4-bit Down Counter
+- Wrote 8-bit Shift Register
+- Simulated all using iverilog and GTKWave
+- Synthesized using Yosys with sky130 PDK
+- [Click here for Day 5 details](Day5/README.md)
