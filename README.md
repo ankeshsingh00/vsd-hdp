@@ -18,7 +18,7 @@ RTL Design, Synthesis and Physical Design.
 | Day 1 | Half Adder - Simulation and Synthesis | ✅ Done |
 | Day 2 | Full Adder - Simulation and Synthesis | ✅ Done |
 | Day 3 | 4x1 MUX - Simulation and Synthesis | ✅ Done |
-| Day 4 | D Flip Flop | 🔄 Upcoming |
+| Day 4 | D Flip Flop - Simulation and Synthesis | ✅ Done |
 | Day 5 | Counters and Shift Register | 🔄 Upcoming |
 | Day 6 | FSM | 🔄 Upcoming |
 | Day 7 | ALU | 🔄 Upcoming |
@@ -48,3 +48,10 @@ RTL Design, Synthesis and Physical Design.
 - Simulated using iverilog and GTKWave
 - Synthesized using Yosys with sky130 PDK
 - [Click here for Day 3 details](Day3/README.md)
+
+## Day 4 - D Flip Flop
+- Wrote DFF Async Reset in Verilog
+- Wrote DFF Sync Reset in Verilog
+- Simulated both using iverilog and GTKWave
+- Synthesized using Yosys with dfflibmap
+- [Click here for Day 4 details](Day4/README.md)
