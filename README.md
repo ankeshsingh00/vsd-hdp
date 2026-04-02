@@ -20,7 +20,7 @@ RTL Design, Synthesis and Physical Design.
 | Day 3 | 4x1 MUX - Simulation and Synthesis | ✅ Done |
 | Day 4 | D Flip Flop - Simulation and Synthesis | ✅ Done |
 | Day 5 | Counters and Shift Register | ✅ Done |
-| Day 6 | FSM | 🔄 Upcoming |
+| Day 6 | FSM - Traffic Light and Sequence Detector | ✅ Done |
 | Day 7 | ALU | 🔄 Upcoming |
 | Day 8 | SystemVerilog Basics | 🔄 Upcoming |
 | Day 9 | Advanced Synthesis | 🔄 Upcoming |
@@ -63,3 +63,10 @@ RTL Design, Synthesis and Physical Design.
 - Simulated all using iverilog and GTKWave
 - Synthesized using Yosys with sky130 PDK
 - [Click here for Day 5 details](Day5/README.md)
+
+## Day 6 - FSM
+- Wrote Traffic Light Controller (Moore Machine)
+- Wrote Sequence Detector 1011 (Mealy Machine)
+- Simulated both using iverilog and GTKWave
+- Synthesized using Yosys with sky130 PDK
+- [Click here for Day 6 details](Day6/README.md)
