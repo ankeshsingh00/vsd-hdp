@@ -18,10 +18,10 @@ RTL Design, Synthesis and Physical Design.
 | Day 1 | Half Adder - Simulation and Synthesis | ✅ Done |
 | Day 2 | Full Adder - Simulation and Synthesis | ✅ Done |
 | Day 3 | 4x1 MUX - Simulation and Synthesis | ✅ Done |
-| Day 4 | D Flip Flop - Simulation and Synthesis | ✅ Done |
-| Day 5 | Counters and Shift Register | ✅ Done |
-| Day 6 | FSM - Traffic Light and Sequence Detector | ✅ Done |
-| Day 7 | ALU | 🔄 Upcoming |
+| Day 4 | D Flip Flop - Simulation and Synthesis | ✅ Done |^M
+| Day 5 | Counters and Shift Register | ✅ Done |^M
+| Day 6 | FSM - Traffic Light and Sequence Detector | ✅ Done |^M
+| Day 7 | ALU - Arithmetic Logic Unit | ✅ Done |
 | Day 8 | SystemVerilog Basics | 🔄 Upcoming |
 | Day 9 | Advanced Synthesis | 🔄 Upcoming |
 | Day 10 | OpenSTA | 🔄 Upcoming |
@@ -70,3 +70,9 @@ RTL Design, Synthesis and Physical Design.
 - Simulated both using iverilog and GTKWave
 - Synthesized using Yosys with sky130 PDK
 - [Click here for Day 6 details](Day6/README.md)
+
+## Day 7 - ALU
+- Wrote 8-bit ALU with 8 operations
+- Simulated using iverilog and GTKWave
+- Synthesized using Yosys with sky130 PDK
+- [Click here for Day 7 details](Day7/README.md)
