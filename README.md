@@ -22,7 +22,7 @@ RTL Design, Synthesis and Physical Design.
 | Day 5 | Counters and Shift Register | ✅ Done |^M
 | Day 6 | FSM - Traffic Light and Sequence Detector | ✅ Done |^M
 | Day 7 | ALU - Arithmetic Logic Unit | ✅ Done |
-| Day 8 | SystemVerilog Basics | 🔄 Upcoming |
+| Day 8 | UART TX - Serial Communication | ✅ Done |
 | Day 9 | Advanced Synthesis | 🔄 Upcoming |
 | Day 10 | OpenSTA | 🔄 Upcoming |
 | Day 11 | RISC-V Introduction | 🔄 Upcoming |
@@ -76,3 +76,12 @@ RTL Design, Synthesis and Physical Design.
 - Simulated using iverilog and GTKWave
 - Synthesized using Yosys with sky130 PDK
 - [Click here for Day 7 details](Day7/README.md)
+
+
+## Day 8 - UART TX
+- Wrote UART Transmitter in Verilog
+- FSM based design with 4 states
+- Simulated using iverilog and GTKWave
+- Synthesized using Yosys with sky130 PDK
+- [Click here for Day 8 details](Day8/README.md)
+
