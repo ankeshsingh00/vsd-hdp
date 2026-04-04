@@ -1,0 +1,438 @@
+$date
+	Sat Apr  4 13:13:46 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_uart_top $end
+$var wire 1 ! tx_done $end
+$var wire 1 " rx_done $end
+$var wire 8 # rx_data [7:0] $end
+$var reg 1 $ clk $end
+$var reg 1 % reset $end
+$var reg 1 & start $end
+$var reg 8 ' tx_data [7:0] $end
+$scope module uut $end
+$var wire 1 $ clk $end
+$var wire 1 % reset $end
+$var wire 1 & start $end
+$var wire 8 ( tx_data [7:0] $end
+$var wire 1 ) tx_line $end
+$var wire 1 ! tx_done $end
+$var wire 1 " rx_done $end
+$var wire 8 * rx_data [7:0] $end
+$scope module rx_inst $end
+$var wire 1 $ clk $end
+$var wire 1 % reset $end
+$var wire 1 ) rx $end
+$var parameter 2 + DATA $end
+$var parameter 2 , IDLE $end
+$var parameter 2 - START $end
+$var parameter 2 . STOP $end
+$var reg 3 / bit_count [2:0] $end
+$var reg 8 0 data [7:0] $end
+$var reg 1 " done $end
+$var reg 2 1 state [1:0] $end
+$upscope $end
+$scope module tx_inst $end
+$var wire 1 $ clk $end
+$var wire 8 2 data [7:0] $end
+$var wire 1 % reset $end
+$var wire 1 & start $end
+$var parameter 2 3 DATA $end
+$var parameter 2 4 IDLE $end
+$var parameter 2 5 START $end
+$var parameter 2 6 STOP $end
+$var reg 3 7 bit_count [2:0] $end
+$var reg 8 8 data_reg [7:0] $end
+$var reg 1 ! done $end
+$var reg 2 9 state [1:0] $end
+$var reg 1 ) tx $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 6
+b1 5
+b0 4
+b10 3
+b11 .
+b1 -
+b0 ,
+b10 +
+$end
+#0
+$dumpvars
+b0 9
+bx 8
+b0 7
+b0 2
+b0 1
+b0 0
+b0 /
+b0 *
+1)
+b0 (
+b0 '
+0&
+1%
+0$
+b0 #
+0"
+0!
+$end
+#5
+1$
+#10
+0$
+1&
+b10101010 '
+b10101010 (
+b10101010 2
+0%
+#15
+b10101010 8
+b1 9
+1$
+#20
+0$
+0&
+#25
+b10 9
+0)
+1$
+#30
+0$
+#35
+b1 7
+b1 1
+1$
+#40
+0$
+#45
+b10 1
+b10 7
+1)
+1$
+#50
+0$
+#55
+b11 7
+0)
+b1 /
+b1 #
+b1 *
+b1 0
+1$
+#60
+0$
+#65
+b10 /
+b100 7
+1)
+1$
+#70
+0$
+#75
+b101 7
+0)
+b11 /
+b101 #
+b101 *
+b101 0
+1$
+#80
+0$
+#85
+b100 /
+b110 7
+1)
+1$
+#90
+0$
+#95
+b111 7
+0)
+b101 /
+b10101 #
+b10101 *
+b10101 0
+1$
+#100
+0$
+#105
+b110 /
+b11 9
+1)
+1$
+#110
+0$
+#115
+b0 9
+1!
+b111 /
+b1010101 #
+b1010101 *
+b1010101 0
+1$
+#120
+0$
+#125
+b11 1
+b11010101 #
+b11010101 *
+b11010101 0
+0!
+1$
+#130
+0$
+#135
+b0 1
+1"
+1$
+#140
+0$
+#145
+0"
+1$
+#150
+0$
+#155
+1$
+#160
+0$
+#165
+1$
+#170
+0$
+1&
+b11001100 '
+b11001100 (
+b11001100 2
+#175
+b11001100 8
+b1 9
+1$
+#180
+0$
+0&
+#185
+b10 9
+b0 7
+0)
+1$
+#190
+0$
+#195
+b1 7
+b1 1
+1$
+#200
+0$
+#205
+b10 1
+b0 /
+b10 7
+1$
+#210
+0$
+#215
+b11 7
+1)
+b1 /
+b11010100 #
+b11010100 *
+b11010100 0
+1$
+#220
+0$
+#225
+b10 /
+b11010110 #
+b11010110 *
+b11010110 0
+b100 7
+1$
+#230
+0$
+#235
+b101 7
+0)
+b11 /
+1$
+#240
+0$
+#245
+b100 /
+b110 7
+1$
+#250
+0$
+#255
+b111 7
+1)
+b101 /
+b11000110 #
+b11000110 *
+b11000110 0
+1$
+#260
+0$
+#265
+b110 /
+b11100110 #
+b11100110 *
+b11100110 0
+b11 9
+1$
+#270
+0$
+#275
+b0 9
+1!
+b111 /
+1$
+#280
+0$
+#285
+b11 1
+0!
+1$
+#290
+0$
+#295
+b0 1
+1"
+1$
+#300
+0$
+#305
+0"
+1$
+#310
+0$
+#315
+1$
+#320
+0$
+#325
+1$
+#330
+0$
+1&
+b11110000 '
+b11110000 (
+b11110000 2
+#335
+b11110000 8
+b1 9
+1$
+#340
+0$
+0&
+#345
+b10 9
+b0 7
+0)
+1$
+#350
+0$
+#355
+b1 7
+b1 1
+1$
+#360
+0$
+#365
+b10 1
+b0 /
+b10 7
+1$
+#370
+0$
+#375
+b11 7
+b1 /
+1$
+#380
+0$
+#385
+b10 /
+b11100100 #
+b11100100 *
+b11100100 0
+b100 7
+1$
+#390
+0$
+#395
+b101 7
+1)
+b11 /
+b11100000 #
+b11100000 *
+b11100000 0
+1$
+#400
+0$
+#405
+b100 /
+b11101000 #
+b11101000 *
+b11101000 0
+b110 7
+1$
+#410
+0$
+#415
+b111 7
+b101 /
+b11111000 #
+b11111000 *
+b11111000 0
+1$
+#420
+0$
+#425
+b110 /
+b11 9
+1$
+#430
+0$
+#435
+b0 9
+1!
+b111 /
+1$
+#440
+0$
+#445
+b11 1
+0!
+1$
+#450
+0$
+#455
+b0 1
+1"
+1$
+#460
+0$
+#465
+0"
+1$
+#470
+0$
+#475
+1$
+#480
+0$
+#485
+1$
+#490
+0$

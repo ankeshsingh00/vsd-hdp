@@ -78,10 +78,11 @@ RTL Design, Synthesis and Physical Design.
 - [Click here for Day 7 details](Day7/README.md)
 
 
-## Day 8 - UART TX
-- Wrote UART Transmitter in Verilog
-- FSM based design with 4 states
+## Day 8 - UART (Complete)
+- Designed UART Transmitter (TX)
+- Designed UART Receiver (RX)
+- Integrated TX and RX in Top module
+- Verified loopback communication
 - Simulated using iverilog and GTKWave
 - Synthesized using Yosys with sky130 PDK
 - [Click here for Day 8 details](Day8/README.md)
-
