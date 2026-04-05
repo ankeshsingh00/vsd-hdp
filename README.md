@@ -23,7 +23,7 @@ RTL Design, Synthesis and Physical Design.
 | Day 6 | FSM - Traffic Light and Sequence Detector | ✅ Done |^M
 | Day 7 | ALU - Arithmetic Logic Unit | ✅ Done |
 | Day 8 | UART TX - Serial Communication | ✅ Done |
-| Day 9 | Advanced Synthesis | 🔄 Upcoming |
+| Day 9 | Advanced Synthesis + OpenSTA | ✅ Done |
 | Day 10 | OpenSTA | 🔄 Upcoming |
 | Day 11 | RISC-V Introduction | 🔄 Upcoming |
 | Day 12 | OpenLane Setup | 🔄 Upcoming |
@@ -86,3 +86,10 @@ RTL Design, Synthesis and Physical Design.
 - Simulated using iverilog and GTKWave
 - Synthesized using Yosys with sky130 PDK
 - [Click here for Day 8 details](Day8/README.md)
+
+## Day 9 - Advanced Synthesis + OpenSTA
+- Designed 4-bit Ripple Carry Adder
+- Wrote SDC timing constraints
+- Performed Static Timing Analysis
+- Used OpenSTA for timing reports
+- [Click here for Day 9 details](Day9/README.md)
