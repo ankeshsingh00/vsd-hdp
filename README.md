@@ -24,7 +24,7 @@ RTL Design, Synthesis and Physical Design.
 | Day 7 | ALU - Arithmetic Logic Unit | ✅ Done |
 | Day 8 | UART TX - Serial Communication | ✅ Done |
 | Day 9 | Advanced Synthesis + OpenSTA | ✅ Done |
-| Day 10 | OpenSTA | 🔄 Upcoming |
+| Day 10 | RISC-V Core Study | ✅ Done |
 | Day 11 | RISC-V Introduction | 🔄 Upcoming |
 | Day 12 | OpenLane Setup | 🔄 Upcoming |
 | Day 13 | Floorplanning | 🔄 Upcoming |
@@ -93,3 +93,10 @@ RTL Design, Synthesis and Physical Design.
 - Performed Static Timing Analysis
 - Used OpenSTA for timing reports
 - [Click here for Day 9 details](Day9/README.md)
+
+## Day 10 - RISC-V Core
+- Studied simple 32-bit RISC-V processor
+- Simulated using iverilog and GTKWave
+- Synthesized using Yosys with sky130 PDK
+- [Click here for Day 10 details](Day10/README.md)
+
