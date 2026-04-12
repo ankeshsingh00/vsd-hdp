@@ -26,7 +26,7 @@ RTL Design, Synthesis and Physical Design.
 | Day 9 | Advanced Synthesis + OpenSTA | ✅ Done |
 | Day 10 | RISC-V Core Study | ✅ Done |
 | Day 11 | OpenLane Setup + Test | ✅ Done |
-| Day 12 | OpenLane Setup | 🔄 Upcoming |
+| Day 12 | Complete Physical Design - Counter | ✅ Done |
 | Day 13 | Floorplanning | 🔄 Upcoming |
 | Day 14 | Placement | 🔄 Upcoming |
 | Day 15 | CTS and Routing | 🔄 Upcoming |
@@ -107,3 +107,10 @@ RTL Design, Synthesis and Physical Design.
 - No DRC violations
 - [Click here for Day 11 details](Day11/README.md)
 
+## Day 12 - Complete Physical Design
+- Designed 8-bit counter
+- Ran complete OpenLane flow
+- Chip size: 27.6 x 27.2 um
+- No DRC/LVS violations
+- GDSII file generated!
+- [Click here for Day 12 details](Day12/README.md)
