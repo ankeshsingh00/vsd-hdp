@@ -25,7 +25,7 @@ RTL Design, Synthesis and Physical Design.
 | Day 8 | UART TX - Serial Communication | ✅ Done |
 | Day 9 | Advanced Synthesis + OpenSTA | ✅ Done |
 | Day 10 | RISC-V Core Study | ✅ Done |
-| Day 11 | RISC-V Introduction | 🔄 Upcoming |
+| Day 11 | OpenLane Setup + Test | ✅ Done |
 | Day 12 | OpenLane Setup | 🔄 Upcoming |
 | Day 13 | Floorplanning | 🔄 Upcoming |
 | Day 14 | Placement | 🔄 Upcoming |
@@ -99,4 +99,11 @@ RTL Design, Synthesis and Physical Design.
 - Simulated using iverilog and GTKWave
 - Synthesized using Yosys with sky130 PDK
 - [Click here for Day 10 details](Day10/README.md)
+
+## Day 11 - OpenLane Setup
+- Installed OpenLane RTL2GDSII flow
+- Successfully ran make test
+- Complete flow from RTL to GDSII
+- No DRC violations
+- [Click here for Day 11 details](Day11/README.md)
 
