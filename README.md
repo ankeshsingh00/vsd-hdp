@@ -27,7 +27,7 @@ RTL Design, Synthesis and Physical Design.
 | Day 10 | RISC-V Core Study | ✅ Done |
 | Day 11 | OpenLane Setup + Test | ✅ Done |
 | Day 12 | Complete Physical Design - Counter | ✅ Done |
-| Day 13 | Floorplanning | 🔄 Upcoming |
+| Day 13 | UART Physical Design | ✅ Done |
 | Day 14 | Placement | 🔄 Upcoming |
 | Day 15 | CTS and Routing | 🔄 Upcoming |
 
@@ -114,3 +114,10 @@ RTL Design, Synthesis and Physical Design.
 - No DRC/LVS violations
 - GDSII file generated!
 - [Click here for Day 12 details](Day12/README.md)
+
+## Day 13 - UART Physical Design
+- Ran complete OpenLane flow on UART
+- RTL to GDSII conversion
+- No DRC/LVS violations
+- GDSII file generated!
+- [Click here for Day 13 details](Day13/README.md)
