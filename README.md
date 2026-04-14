@@ -28,7 +28,7 @@ RTL Design, Synthesis and Physical Design.
 | Day 11 | OpenLane Setup + Test | ✅ Done |
 | Day 12 | Complete Physical Design - Counter | ✅ Done |
 | Day 13 | UART Physical Design | ✅ Done |
-| Day 14 | Placement | 🔄 Upcoming |
+| Day 14 | ALU Physical Design | ✅ Done |
 | Day 15 | CTS and Routing | 🔄 Upcoming |
 
 ## Day 1 - Half Adder
@@ -121,3 +121,10 @@ RTL Design, Synthesis and Physical Design.
 - No DRC/LVS violations
 - GDSII file generated!
 - [Click here for Day 13 details](Day13/README.md)
+
+
+## Day 14 - ALU Physical Design
+- Ran complete OpenLane flow on ALU
+- Combinational design - no clock
+- GDSII file generated!
+- [Click here for Day 14 details](Day14/README.md)
