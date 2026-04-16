@@ -1,0 +1,26 @@
+
+52. Printing statistics.
+
+=== iiitb_rv32i ===
+
+   Number of wires:               6124
+   Number of wire bits:           8075
+   Number of public wires:          57
+   Number of public wire bits:    1745
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               7948
+     $_ANDNOT_                    1255
+     $_AND_                        306
+     $_MUX_                       2969
+     $_NAND_                       179
+     $_NOR_                        109
+     $_NOT_                        131
+     $_ORNOT_                       89
+     $_OR_                         990
+     $_XNOR_                        67
+     $_XOR_                        203
+     sky130_fd_sc_hd__dfrtp_2       32
+     sky130_fd_sc_hd__dfxtp_2     1618
+

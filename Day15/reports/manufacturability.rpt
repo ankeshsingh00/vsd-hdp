@@ -1,0 +1,19 @@
+Design Name: iiitb_rv32i
+Run Directory: /openlane/designs/riscv/runs/riscv_run3
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/riscv/runs/riscv_run3/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/riscv/runs/riscv_run3/logs/signoff/39-iiitb_rv32i.lef.lvs.log
+Number of nets: 9425                       |Number of nets: 9425                       
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/riscv/runs/riscv_run3/logs/signoff/41-arc.log
+Pin violations: 10
+Net violations: 10

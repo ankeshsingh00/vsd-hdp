@@ -29,7 +29,7 @@ RTL Design, Synthesis and Physical Design.
 | Day 12 | Complete Physical Design - Counter | ✅ Done |
 | Day 13 | UART Physical Design | ✅ Done |
 | Day 14 | ALU Physical Design | ✅ Done |
-| Day 15 | CTS and Routing | 🔄 Upcoming |
+| Day 15 | RISC-V Physical Design | ✅ Done |
 
 ## Day 1 - Half Adder
 - Wrote Half Adder in Verilog from scratch
@@ -128,3 +128,11 @@ RTL Design, Synthesis and Physical Design.
 - Combinational design - no clock
 - GDSII file generated!
 - [Click here for Day 14 details](Day14/README.md)
+
+## Day 15 - RISC-V Physical Design
+- Ran complete OpenLane flow on RISC-V
+- Most complex design of the program
+- RTL to GDSII conversion
+- GDSII file generated!
+- [Click here for Day 15 details](Day15/README.md)
+
